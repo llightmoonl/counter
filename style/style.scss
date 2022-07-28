@@ -1,0 +1,58 @@
+@import "fonts";
+
+*{
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: 'Edu VIC WA NT Beginner', cursive;
+  user-select: none;
+}
+
+.container{
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.counter{
+  &__title{
+    font-size: 40px;
+    font-weight: 600;
+  }
+  &__content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+  }
+  &__interface{
+    display: flex;
+    align-items: center;
+    cursor: default;
+  }
+  &__text{
+    font-size: 110px;
+    margin: 0 30px;
+    min-width: 130px;
+    text-align: center;
+  }
+  &__reset{
+    margin-top: 15px;
+  }
+}
+
+.button{
+  font-size: 25px;
+  cursor: pointer;
+  &:hover{
+    text-decoration: underline;
+  }
+}
+
+.button-interface{
+  display: inline-block;
+  font-size: 60px;
+  width: 50px;
+  text-align: center;
+  cursor: pointer;
+}

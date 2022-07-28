@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: "Edu VIC WA NT Beginner", cursive;
+  user-select: none;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.counter__title {
+  font-size: 40px;
+  font-weight: 600;
+}
+.counter__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+.counter__interface {
+  display: flex;
+  align-items: center;
+  cursor: default;
+}
+.counter__text {
+  font-size: 110px;
+  margin: 0 30px;
+  min-width: 130px;
+  text-align: center;
+}
+.counter__reset {
+  margin-top: 15px;
+}
+
+.button {
+  font-size: 25px;
+  cursor: pointer;
+}
+.button:hover {
+  text-decoration: underline;
+}
+
+.button-interface {
+  display: inline-block;
+  font-size: 60px;
+  width: 50px;
+  text-align: center;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=style.css.map */
